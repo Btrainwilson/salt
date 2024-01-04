@@ -1,4 +1,5 @@
-Salt
+
+`salt`
 ========
 
 .. image:: ./icons/logo.png
@@ -7,7 +8,7 @@ Salt
     :align: center
     :alt: Salt
 
-$project will solve your problem of where to start with documentation,
+`salt` will solve your problem of where to start with documentation,
 by providing a basic explanation of how to do it easily.
 
 Look how easy it is to use:
@@ -25,15 +26,15 @@ Features
 Installation
 ------------
 
-Install $project by running:
+Install `salt` by running:
 
     install project
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+- Issue Tracker: github.com/`salt`/`salt`/issues
+- Source Code: github.com/`salt`/`salt`
 
 Support
 -------
