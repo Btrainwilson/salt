@@ -28,7 +28,7 @@ setup(
     url="",
     packages=find_packages(),
     scripts=["bash/mm", "bash/ltf", "bash/sno"],
-    install_requires=[],
+    install_requires=[line.strip() for line in open("requirements.txt").readlines()],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
