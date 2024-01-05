@@ -55,7 +55,7 @@ def rotate_file(target_file_path, directory):
     print(f"{target_file_path} has been overwritten with {new_file_path}")
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 3:
         print("Usage: python rotate_file.py [target_file_path] [directory]")
         sys.exit(1)
@@ -64,3 +64,7 @@ if __name__ == "__main__":
     directory = sys.argv[2]
 
     rotate_file(target_file_path, directory)
+
+
+if __name__ == "__main__":
+    main()

@@ -18,9 +18,15 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT License",
     keywords=[],
+    entry_points={
+        "console_scripts": [
+            "srf = salt.rotate_files:main",
+            "shp = salt.http_server:main",
+        ]
+    },
     url="",
     packages=find_packages(),
-    scripts=[],
+    scripts=["bash/mm", "bash/ltf", "bash/sno"],
     install_requires=[],
     include_package_data=True,
     zip_safe=False,

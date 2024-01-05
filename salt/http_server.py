@@ -40,7 +40,7 @@ def run(
     httpd.serve_forever()
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) > 1:
         directory_to_serve = sys.argv[1]
         port = int(sys.argv[2]) if len(sys.argv) > 2 else 8008
@@ -51,3 +51,7 @@ if __name__ == "__main__":
         port = 8008
 
     run(directory_to_serve=directory_to_serve, port=port)
+
+
+if __name__ == "__main__":
+    main()
