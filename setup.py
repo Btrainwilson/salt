@@ -20,6 +20,7 @@ setup(
     keywords=[],
     entry_points={
         "console_scripts": [
+            "salt = salt:main",
             "srf = salt.rotate_files:main",
             "shp = salt.http_server:main",
         ]

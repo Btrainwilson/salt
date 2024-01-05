@@ -8,7 +8,7 @@
     :align: center
     :alt: Salt
 
-`salt` is a mixed bag of core-util-like tools for Linux-based systems. These tools include a no-cache http-server, modified-make, file rotations, and any other core-util-like idea that seems useful.
+`salt` is a mixed bag of core-utils-like tools for Linux-based systems. These tools include a no-cache http-server, modified-make, file rotations, and many other core-utils-like ideas.
 
 
 Features
@@ -30,16 +30,4 @@ Installation
 Install `salt` by running:
 
     pip install salt
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
-
-License
--------
-
-The project is licensed under the BSD license.
 
