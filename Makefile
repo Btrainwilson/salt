@@ -13,13 +13,12 @@ $(VENV): requirements.txt setup.py
 .PHONY: doc
 doc: $(VENV)
 	@cd docs && make clean
-	@$(BIN)/sphinx-apidoc -o ./docs/source/ ./polytensor
+	@$(BIN)/sphinx-apidoc -o ./docs/source/ ./salt
 	@cd docs && make html
 
 .PHONY: test
 test: $(VENV)
 	$(BIN)/pytest -s ./test/testPackage.py 
-	$(BIN)/pytest -s ./test/testGrad.py 
 
 clean:
 	rm -rf $(VENV)

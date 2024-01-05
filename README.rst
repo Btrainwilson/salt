@@ -8,33 +8,29 @@
     :align: center
     :alt: Salt
 
-`salt` will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+`salt` is a mixed bag of core-util-like tools for Linux-based systems. These tools include a no-cache http-server, modified-make, file rotations, and any other core-util-like idea that seems useful.
 
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
 
 Features
 --------
 
-- Be awesome
-- Make things faster
+- Modified-make
+    Automatically calls make when a file changes.
+- No-cache http-server
+    A simple http-server that doesn't cache files so live updates occur on write.
+- File rotations
+    Rotate files in a directory to a location using alphabetical order of name.
+- Color extractor
+    Extract colors from an image for generating color pallettes.
+- More to come
 
 Installation
 ------------
 
 Install `salt` by running:
 
-    install project
+    pip install salt
 
-Contribute
-----------
-
-- Issue Tracker: github.com/`salt`/`salt`/issues
-- Source Code: github.com/`salt`/`salt`
 
 Support
 -------
